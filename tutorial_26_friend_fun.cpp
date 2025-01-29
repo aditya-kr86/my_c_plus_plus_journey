@@ -1,3 +1,20 @@
+/*
+# Friend Function Key Points
+- Allows access to private/protected members.
+- Declared in the class using friend.
+- Defined outside the class like a normal function.
+Example Syntax:
+class ClassName {
+    friend ReturnType FunctionName(Arguments);
+};
+
+# Properties
+- Not in the class scope.
+- Cannot be called using an object.
+- Invoked like a normal function.
+- Can be declared in public or private sections.
+- Needs an object to access members (object_name.member_name).
+ */
 #include <iostream>
 using namespace std;
 
