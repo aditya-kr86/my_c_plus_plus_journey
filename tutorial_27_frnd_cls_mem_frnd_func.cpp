@@ -1,3 +1,20 @@
+/*
+# Member Friend Functions
+- Declared with friend in the target class.
+- Allows specific functions of another class access to private members.
+- Example:
+- friend int ClassName::FunctionName(Args);
+
+# Friend Classes
+- Declared using friend class ClassName.
+- Grants access to all private/protected members for the friend class.
+
+# Properties
+- Both enable private member access across classes.
+- Member functions: Precise control.
+- Friend classes: Full access for a class.
+*/
+
 #include <iostream>
 using namespace std;
 
