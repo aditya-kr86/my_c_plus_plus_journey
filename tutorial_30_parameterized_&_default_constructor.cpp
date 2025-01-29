@@ -1,3 +1,17 @@
+/*
+#Parameterized & Default Constructors
+1.Default Constructor:
+- Takes no parameters.
+- Automatically invoked to initialize members with default values.
+
+2.Parameterized Constructor:
+- Takes one or more parameters.
+- Used to initialize objects with specific values.
+
+3.Characteristics:
+- No return type.
+- Declared in the public section.*/
+
 #include <iostream>
 using namespace std;
 
