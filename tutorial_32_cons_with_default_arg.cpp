@@ -1,4 +1,13 @@
-// Constructors With Default Arguments In C++
+/*
+Constructors with Default Arguments
+1. Definition:
+- Constructors with predefined default values for parameters.
+- If no value is passed for a parameter, its default value is used.
+
+2. Key Points:
+- Default values are specified during constructor declaration.
+- If all arguments are provided during object creation, default values are ignored.
+*/
 #include<iostream>
 using namespace std;
 
