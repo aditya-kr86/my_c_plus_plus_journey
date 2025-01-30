@@ -1,4 +1,12 @@
-// Constructor Overloading In C++
+/*
+# Constructor Overloading In C++
+Definition: A class having multiple constructors with the same name but different parameters.
+
+# Key Points:
+Constructor executed depends on the arguments passed.
+Types: Default and Parameterized constructors.
+*/
+
 #include <iostream>
 using namespace std;
 
