@@ -1,4 +1,9 @@
-// Dynamic Initialization of Objects Using Constructors
+/*
+# Dynamic Initialization of Objects
+Definition:
+- Initializing objects at runtime using constructors.
+- Handles data in different formats (e.g., float, int).
+*/
 #include<iostream>
 using namespace std;
 
