@@ -1,4 +1,30 @@
-// Destructor in C++
+/*
+# Destructor in C++
+
+1. Definition:
+- Special member function automatically invoked when an object is destroyed.
+- Syntax: ~ClassName() {  code  }
+
+2. Characteristics:
+- No arguments, no return type.
+- Automatically called when:
+- Object goes out of scope.
+- Program ends.
+- Dynamically allocated object is deleted.
+- Used for cleanup (e.g., releasing memory, closing files).
+
+3. Code Example:
+    class num {
+        static int count;
+    public:
+        num() { count++; cout << "Constructor called for " << count << endl; }
+        ~num() { cout << "Destructor called for " << count << endl; count--; }
+    };
+
+4. Behavior:
+- Creation: Constructor runs when objects are created.
+- Destruction: Destructor runs in reverse order when objects go out of scope.
+*/
 #include<iostream>
 using namespace std;
 
