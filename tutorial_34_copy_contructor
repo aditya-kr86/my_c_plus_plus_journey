@@ -1,4 +1,23 @@
-// Copy Constructor in C++
+/*
+## Copy Constructor
+
+1. Definition:
+- Special constructor used to create a copy of an object.
+- Takes a reference to the object being copied as a parameter.
+
+2. Syntax:
+    ClassName(const ClassName &obj) {
+        // Copy object properties
+    }
+
+
+3. Key Points:
+- Invoked automatically during:
+- Object initialization with another object (e.g., ClassName obj2 = obj1;).
+- Passing objects by value.
+- Returning objects from a function.
+- Not invoked during direct assignment (obj2 = obj1).
+*/
 #include<iostream>
 using namespace std;
 
