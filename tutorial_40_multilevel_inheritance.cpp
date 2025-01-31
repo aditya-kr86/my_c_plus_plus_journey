@@ -1,3 +1,36 @@
+/*
+# Multilevel Inheritance:
+1. A derived class is inherited from another derived class.
+2. Enables a chain of inheritance (e.g., Student → Exam → Result).
+
+# Code Example:
+1. Student Class:
+- Protected: roll_number.
+- Functions: set_roll_number() (sets roll number), get_roll_number() (prints roll number).
+
+2. Exam Class:
+- Protected: maths, physics.
+- Functions:
+    set_marks() → Sets marks.
+    get_marks() → Prints marks.
+
+
+3. Result Class:
+- Private: percentage.
+- Function:
+    [*] display_results():
+        - Calls get_roll_number() and get_marks().
+        - Calculates percentage as (maths + physics) / 2.
+
+
+# Main Function:
+1. Create Result object.
+2. Call:
+- set_roll_number() → Assign roll number.
+- set_marks() → Assign marks.
+- display_results() → Display roll number, marks, and percentage.
+*/
+
 #include <iostream>
 using namespace std;
 
