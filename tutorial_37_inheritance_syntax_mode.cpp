@@ -1,3 +1,36 @@
+/*
+# Inheritance Syntax
+    class Derived : visibility-mode Base {
+        // Members/Methods
+    };
+
+
+# Visibility Modes:
+1. Public:
+- Public → Public in derived class.
+2. Private:
+- Public → Private in derived class.
+3. Default:
+- Private, if not specified.
+4. Private Members:
+- Not inherited.
+
+# Example:
+    class Employee {
+    public:
+        int id;
+        float salary;
+    };
+    class Programmer : public Employee {
+        int languageCode;
+    };
+
+
+# Key Points:
+- Use constructors for initialization.
+- Derived class inherits public and protected members, not private ones.
+*/
+
 #include <iostream>
 using namespace std;
 
