@@ -1,7 +1,3 @@
-#include <iostream>
-#include <math.h>
-using namespace std;
-
 /*
 Create 2 classes:
     1. SimpleCalculator - Takes input of 2 numbers using a utility function and performs +,-,*,/ and displays the resullt using another function.
@@ -13,6 +9,10 @@ Create 2 classes:
     Q3. Create an Object of HybridCalculator and display results of simple and scientific calculator?
     Q4. How is Code Reusability implemented?
 */
+#include <iostream>
+#include <math.h>
+using namespace std;
+
 class SimpleCalculator
 {
 protected:
