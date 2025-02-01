@@ -1,3 +1,21 @@
+/*
+1. Ambiguity in Inheritance:
+- Occurs when a derived class inherits multiple base classes with functions having the same name.
+- Resolved using the scope resolution operator (::).
+- 
+2. Example 1: Multiple Inheritance
+- Base1 and Base2 have greet() functions.
+- Derived resolves ambiguity by calling Base2::greet() explicitly.
+
+3. Example 2: Method Overriding in Single Inheritance
+- A derived class overrides a base class function by redefining it.
+- If the function is not overridden, the base class function is used.
+
+4. Key Points:
+- Scope resolution operator specifies which base class function to call.
+- Method overriding happens by default when a derived class has the same function as its base class.
+*/
+
 #include <iostream>
 using namespace std;
 
