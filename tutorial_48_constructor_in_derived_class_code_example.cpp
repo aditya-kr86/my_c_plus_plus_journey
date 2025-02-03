@@ -1,3 +1,16 @@
+/*
+1. Execution Order:
+- Single Inheritance: Base -> Derived.
+- Multiple Inheritance: Constructors execute in order of inheritance.
+- Virtual Base Class: Virtual base constructor executes first.
+2. Parameterized Constructor in Derived Class:
+- Use initialization lists to call base class constructors:
+- Derived(int a, int b) : Base1(a), Base2(b) {}
+3. Important Notes:
+- Constructors for all base classes are called automatically.
+- Order of inheritance affects constructor execution sequence.
+*/
+
 #include <iostream>
 using namespace std;
 
