@@ -1,3 +1,21 @@
+/*
+1. Classes:
+    # SimpleCalculator:
+    - Inputs two numbers.
+    - Performs basic arithmetic ( + , - , * , / ).
+    # ScientificCalculator:
+    - Inputs two numbers.
+    - Performs scientific operations ( cos , sin , exp , tan ).
+    - HybridCalculator:
+    - Inherits both calculators.
+2. Key Points:
+    - Multiple Inheritance is used.
+    - Constructors for base classes execute before the derived class.
+3. Main Program:
+    - Object of HybridCalculator calls methods from both SimpleCalculator and ScientificCalculator .
+4. Code:
+    - class HybridCalculator : public SimpleCalculator, public ScientificCalculator {};
+*/
 #include <iostream>
 #include <math.h>
 using namespace std;
