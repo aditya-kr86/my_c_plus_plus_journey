@@ -1,3 +1,21 @@
+/*
+Pointers to Derived Classes in C++:
+1. Base Class Pointer:
+- Can point to a derived class object.
+- Cannot access derived class members.
+- Calls base class functions.
+
+2. Derived Class Pointer
+- Can point to a
+- derived class object
+- Can access both base and derived class members
+- Calls derived class functions
+
+3. Key Behavior
+- Base class pointer
+- only works with base class members
+- Derived class pointer allows access to all members and overrides base class functions.
+*/
 #include <iostream>
 using namespace std;
 
