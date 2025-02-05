@@ -1,3 +1,16 @@
+/*
+# Virtual Functions Example:
+1. Base Class:
+- Contains a virtual function display() for runtime polymorphism.
+- Example: virtual void display();.
+
+2. Derived Classes:
+- Override the display() function to provide specific behavior.
+- Example:
+    void display() override;
+3.Pointer Array:
+- Base class pointers (CWH*) can point to derived class objects.
+*/
 #include<iostream>
 #include<cstring>
 using namespace std;
