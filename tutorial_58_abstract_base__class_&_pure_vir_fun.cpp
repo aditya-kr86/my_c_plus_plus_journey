@@ -1,3 +1,25 @@
+/*
+# Pure Virtual Function:
+- A function with no implementation.
+- Syntax: virtual void functionName() = 0;.
+- Used to define abstract classes.
+- Must be overridden in derived classes.
+
+# Abstract Base Class:
+- A class with at least one pure virtual function.
+- Derived classes must provide an implementation for all pure virtual functions.
+- Cannot create objects of an abstract class.
+
+# Example:
+- Base Class (CWH):
+- Contains a pure virtual function display().
+- Derived Classes (CWHVideo, CWHText):
+- Override display() and provide specific functionality.
+
+* Key Concept:
+- Abstract class = Class with at least one pure virtual function.
+- Derived classes must override the pure virtual function to be instantiated.
+*/
 #include <iostream>
 #include <cstring>
 using namespace std;
