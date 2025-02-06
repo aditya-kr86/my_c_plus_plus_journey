@@ -1,3 +1,36 @@
+/*
+# What are Templates?
+- A template is a blueprint for creating classes and functions that work with any data type.
+
+# Why Use Templates?
+- Avoids code duplication
+- Supports multiple data types
+- Improves efficiency
+
+# Syntax of a Template Class
+    template <class T>
+    class ClassName {
+        T var;
+    };
+
+# Example Usage
+    vector<int> v1(3);    // Integer vector  
+    vector<float> v2(3);  // Float vector  
+# Dot Product Using Templates (Generalized Version)
+    template <class T>
+    class vector {
+        T *arr;
+        int size;
+    };
+
+# Advantages of Templates
+- Saves time
+- Reduces redundancy
+- Increases code efficiency
+- Essential for competitive programming
+
+@@ Next Lesson: Templates with multiple parameters. 🚀 Keep coding! 🎯
+*/
 #include <iostream>
 using namespace std;
 
