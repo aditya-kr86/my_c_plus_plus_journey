@@ -1,3 +1,25 @@
+/*
+# Key File I/O Classes
+Class Name       |   Purpose
+-----------------|-------------------------------
+ofstream         |   Writing to files
+ifstream         |   Reading from files
+fstream          |   Both reading & writing
+
+# Opening & Closing Files
+- Write Mode: ofstream hout("file.txt");
+- Read Mode: ifstream hin("file.txt");
+- Closing File: <object_name>.close();
+
+# Key Functions
+Function           |    Purpose
+-------------------|-----------------------------
+<<                 |    Writes to a file
+>>                 |    Reads only one word from a file
+getline()          |    Reads a full line from a file
+.close()           |    Disconnects file from program
+
+*/
 #include<iostream>
 #include<fstream>
  
