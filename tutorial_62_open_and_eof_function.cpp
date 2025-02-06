@@ -1,3 +1,26 @@
+/*
+## Opening a File : Two Methods
+1. Using Constructor: ofstream out("file.txt");
+
+2. Using open() Function:
+    ofstream out;
+    out.open("file.txt");
+# Closing a File
+- Always close files after use:
+    out.close();  // For writing
+    in.close();   // For reading
+
+# Reading a File Until End
+- Using eof() in a loop:
+    while (!in.eof()) {
+        getline(in, st);
+        cout << st << endl;
+    }
+Ensures complete file reading.
+
+
+*/
+
 #include <iostream>
 #include <fstream>
 #include <string>
