@@ -1,3 +1,18 @@
+/*
+# List is a doubly linked list (bi-directional).
+
+# Key Methods:
+- push_back() → Add element at the end
+- push_front() → Add element at the front
+- pop_back() → Remove last element
+- pop_front() → Remove first element
+- remove(value) → Removes all occurrences of value
+- sort() → Sorts the list in ascending order
+
+# Iterators are used to traverse and modify elements in a list.
+
+# Lists are preferred over arrays when frequent insertions & deletions are needed.
+*/
 #include<iostream>
 #include<list>
 using namespace std;
