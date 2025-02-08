@@ -1,3 +1,20 @@
+/*
+# Map is an associative container that stores key-value pairs.
+
+# Keys are unique, and elements are sorted in ascending order of keys.
+
+# Ways to insert elements:
+- Indexing method (marksMap["key"] = value)
+- insert() method (marksMap.insert({{"key", value}}))
+
+# Accessing elements:
+
+- Using iterators with .begin() and .end().
+- Using .first and .second to access key and value.
+
+# Useful functions:
+- size(), empty(), erase(), clear().
+*/
 #include<iostream>
 #include<string>
 #include<map>
